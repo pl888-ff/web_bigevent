@@ -1,0 +1,62 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url(/assets/images/login_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.loginAndRegBox {
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-box {
+    height: 60px;
+    background: url(/assets/images/login_title.png) no-repeat center;
+}
+
+#link_login {
+    /* display: none; */
+}
+
+
+/* 先让注册的盒子影藏 */
+
+.reg-box {
+    display: none;
+}
+
+
+/* 让表单往中间挤 */
+
+.layui-form {
+    padding: 0 30px;
+}
+
+.layui-form-item {
+    /* padding: 0 30px; */
+    position: relative;
+}
+
+.layui-form-item input {
+    padding-left: 30px;
+}
+
+.layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#link_reg,
+#link_login {
+    float: right;
+}
